@@ -63,3 +63,25 @@ li {
 .related-topics-list {
   list-style: none;
 }
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a7a8b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #065764;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
