@@ -126,3 +126,64 @@ a:active {
 a:visited {
   color: #1098ad;
 }
+
+/* ---------- */
+
+.container {
+  margin: 0 80px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+}
+
+#author {
+  margin: 0 0 0 15px;
+}
+
+.related-author {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.row {
+  justify-content: space-between;
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 0 0 800;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 auto;
+  align-items: center;
+}
